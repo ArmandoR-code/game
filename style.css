@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+body {
+    font-family: 'Viaoda Libre', cursive;;
+    text-align: center;
+    background: rgba(62, 121, 231, 0.719);
+    border: 5px dashed coral;
+}
+#title {
+    font-size: 2.3rem;
+}
+#choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+#choices > button {
+    font-size: 3rem;
+    padding: 30px;
+}
+#display {
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+#🪨 {
+    background-color: rgba(169, 169, 169, 0.582);
+}
+#📄 {
+    background-color: rgba(49, 49, 160, 0.685);
+}
+#✂️ {
+    background-color: rgba(219, 56, 89, 0.685);
+}
+
+
